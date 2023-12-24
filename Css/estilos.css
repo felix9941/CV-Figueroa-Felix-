@@ -89,7 +89,7 @@ html {
 }
 .color {
   color: rgb(188, 112, 18);
-  font-family: "Yellowtail";
+  font-family: "Times New Roman", Times, serif;
 }
 .inicio .contenido-seccion header .nav-bar {
   position: fixed;
@@ -158,7 +158,6 @@ html {
   font-size: 1.5rem;
 }
 /*Sobre mi*/
-
 .sobremi {
   background-color: beige;
   padding: 100px 0 100px 0;
@@ -172,6 +171,7 @@ html {
 }
 .sobremi .contenido-seccion h3 {
   text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 30px;
 }
 .sobremi .contenido-seccion .especial {
@@ -231,6 +231,7 @@ html {
 .conocimientos .contenido-seccion h3 {
   text-transform: uppercase;
   font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .conocimientos .contenido-seccion .fila {
@@ -272,6 +273,7 @@ html {
   padding: 0 10px;
 }
 .estudios .contenido-seccion h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-transform: uppercase;
   font-size: 30px;
 }
@@ -334,6 +336,7 @@ html {
   padding: 0 10px;
 }
 .experiencia .contenido-seccion h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-transform: uppercase;
   font-size: 30px;
 }
