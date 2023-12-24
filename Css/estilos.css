@@ -4,12 +4,40 @@
   box-sizing: border-box;
   font-family: "Titillium Web";
 }
-/*
-body {
-  font-family: "Lato", sans-serif;
-  font-family: "Montserrat", sans-serif;
+
+/*Animacion cambio de color */
+@keyframes cambioColorTitulo {
+  from {
+    color: beige;
+  }
+  to {
+    color: rgb(188, 112, 18);
+  }
 }
-*/
+.info h2 {
+  animation: cambioColorTitulo 2s infinite alternate;
+}
+.color {
+  animation: cambioColorTitulo 2s infinite alternate;
+}
+.experiencia h3 {
+  animation: cambioColorTitulo 2s infinite alternate;
+}
+@keyframes cambioColor {
+  from {
+    color: black;
+  }
+  to {
+    color: rgb(188, 112, 18);
+  }
+}
+.sobremi h3 {
+  animation: cambioColor 2s infinite alternate;
+}
+.estudios h3 {
+  animation: cambioColor 2s infinite alternate;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Titillium+web:wght@200;300;400;600;700&family=Yellowtail&display=swap");
 
 html {
@@ -130,6 +158,7 @@ html {
   font-size: 1.5rem;
 }
 /*Sobre mi*/
+
 .sobremi {
   background-color: beige;
   padding: 100px 0 100px 0;
@@ -155,6 +184,7 @@ html {
   margin: auto;
   color: #666;
   padding-left: 5px;
+  font-size: 16px;
 }
 .sobremi .contenido-seccion .fila {
   display: flex;
@@ -385,6 +415,54 @@ footer {
   font-size: 20px;
 }
 @media screen and (max-width: 800px) {
+  .conocimientos .contenido-seccion .fila {
+    display: block;
+  }
+  .conocimientos .contenido-seccion .fila .col {
+    width: 100%;
+    display: block;
+  }
+  .conocimientos .contenido-seccion .fila .col .cont-barra {
+    justify-content: center;
+  }
+  .sobremi .contenido-seccion .fila {
+    display: block;
+  }
+  .sobremi .contenido-seccion .fila .col {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .estudios .contenido-seccion .info {
+    display: block;
+  }
+  .estudios .contenido-seccion .info .col {
+    width: 90%;
+    margin: auto;
+  }
+  .estudios .contenido-seccion .info .col .titulo {
+    display: block;
+    text-align: center;
+  }
+  .estudios .contenido-seccion .info .col table {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .experiencia .contenido-seccion .info {
+    display: block;
+  }
+  .experiencia .contenido-seccion .info .col {
+    width: 90%;
+    margin: auto;
+  }
+  .experiencia .contenido-seccion .info .col .titulo {
+    display: block;
+    text-align: center;
+  }
+  .experiencia .contenido-seccion .info .col table {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
   .contacto .contenido-seccion .fila {
     display: block;
   }
