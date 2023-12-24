@@ -1,2 +1,2 @@
 # CV-Figueroa-Felix-
-Curriculum Vitae actualizado a fines de 2023
+Diseño del Curriculum Vitae utilizando HTML, CSS y JS en el cual esta con la información actualizada para el año 2023
