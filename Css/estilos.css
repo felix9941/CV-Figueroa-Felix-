@@ -17,7 +17,6 @@ html {
 }
 
 .inicio {
-  /*background: (rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../IMG/portada.jpeg);*/
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../IMG/portada-2.jpg);
   background-size: cover;
@@ -133,7 +132,7 @@ html {
 /*Sobre mi*/
 .sobremi {
   background-color: beige;
-  padding: 140px 0 100px 0;
+  padding: 100px 0 100px 0;
   text-align: center;
 }
 
@@ -152,9 +151,10 @@ html {
   margin-top: 15px;
 }
 .sobremi .contenido-seccion p {
-  max-width: 700px;
+  max-width: 800px;
   margin: auto;
   color: #666;
+  padding-left: 5px;
 }
 .sobremi .contenido-seccion .fila {
   display: flex;
@@ -162,7 +162,7 @@ html {
   justify-content: space-between;
 }
 .sobremi .contenido-seccion .fila .col {
-  width: 30%;
+  width: 40%;
 }
 
 .sobremi .contenido-seccion .fila .col i {
@@ -178,4 +178,173 @@ html {
   display: block;
   font-weight: bold;
   margin: 8px 0;
+}
+
+/*CONOCIMIENTOS */
+.conocimientos {
+  padding: 80px 0 100px 0;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../IMG/portada.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  color: #fff;
+}
+
+.conocimientos .contenido-seccion {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.conocimientos .contenido-seccion h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.conocimientos .contenido-seccion .fila {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.conocimientos .contenido-seccion .fila .col {
+  width: 47%;
+  text-align: left;
+}
+.conocimientos .contenido-seccion .fila .col .cont-barra {
+  display: flex;
+  align-items: center;
+}
+.conocimientos .contenido-seccion .barra {
+  display: flex;
+  border: 1px solid rgb(188, 112, 18);
+  padding: 2px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.conocimientos .contenido-seccion .barra .e {
+  background-color: #363636;
+  width: 20px;
+  height: 30px;
+  margin-right: 2px;
+}
+
+/*Estudios*/
+.estudios {
+  background-color: beige;
+  padding: 70px 0 100px 0;
+  text-align: center;
+}
+.estudios .contenido-seccion {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 10px;
+}
+.estudios .contenido-seccion h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.estudios .contenido-seccion .info {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.estudios .contenido-seccion .info .col {
+  width: 45%;
+}
+.estudios .contenido-seccion .info .col .titulo {
+  display: inline-block;
+  color: rgb(188, 112, 18);
+  font-weight: bold;
+  border: 2px solid rgb(188, 112, 18);
+  padding: 10px;
+}
+.estudios .contenido-seccion .info .col table {
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+.estudios .contenido-seccion .info .col table .datos {
+  width: 40%;
+  border-bottom: 2px solid black;
+}
+.estudios .contenido-seccion .info .col table h4 {
+  margin-top: 10px;
+}
+.estudios .contenido-seccion .info .col table h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.estudios .contenido-seccion .info .col table p {
+  display: block;
+  color: rgb(188, 112, 18);
+  margin-top: 10px;
+  font-weight: bold;
+}
+.estudios .contenido-seccion .info .col table .descripcion {
+  border-left: 2px solid black;
+  padding-left: 15px;
+}
+
+/*Experiencia*/
+.experiencia {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../IMG/experiencia-laboral.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  color: #fff;
+  padding: 70px 0 100px 0;
+  text-align: center;
+}
+.experiencia .contenido-seccion {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 10px;
+}
+.experiencia .contenido-seccion h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.experiencia .contenido-seccion .info {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.experiencia .contenido-seccion .info .col {
+  width: 45%;
+}
+.experiencia .contenido-seccion .info .col .titulo {
+  display: inline-block;
+  color: rgb(188, 112, 18);
+  font-weight: bold;
+  border: 2px solid rgb(188, 112, 18);
+  padding: 10px;
+}
+.experiencia .contenido-seccion .info .col table {
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+.experiencia .contenido-seccion .info .col table .datos {
+  width: 40%;
+  border-bottom: 2px solid black;
+}
+.experiencia .contenido-seccion .info .col table h4 {
+  margin-top: 10px;
+}
+.experiencia .contenido-seccion .info .col table h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.experiencia .contenido-seccion .info .col table p {
+  display: block;
+  color: rgb(188, 112, 18);
+  margin-top: 10px;
+  font-weight: bold;
+}
+.experiencia .contenido-seccion .info .col table .descripcion {
+  border-left: 2px solid black;
+  padding-left: 15px;
 }
