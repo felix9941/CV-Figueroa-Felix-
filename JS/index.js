@@ -63,7 +63,7 @@ function efectoConocimientos() {
     }, 100);
 
     const intervalJavascript = setInterval(function () {
-      pintarBarra(javascript, 5, 1, intervalJavascript);
+      pintarBarra(javascript, 3, 1, intervalJavascript);
     }, 100);
 
     const intervalMetAgil = setInterval(function () {
